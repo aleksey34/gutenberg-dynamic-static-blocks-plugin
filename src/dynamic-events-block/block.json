@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/dynamic-all-events-block",
+	"version": "0.1.0",
+	"title": "Dynamic All Events block",
+	"category": "widgets",
+	"icon": "flag",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+	  "html": false
+	},
+	"attributes": {
+        "quantity":{
+            "type":"number",
+            "default": 2
+        }
+    },
+	"textdomain": "guten-todo-list",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+  }
